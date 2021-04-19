@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', 'sans-serif';
+    background-image: url(/Images/jade-scarlato-1zBPoVwS_Jo-unsplash.jpg);
+    background-position: top;
+    background-repeat: none;
+    background-size: contain;
+    
+}
+
+
+
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+  }
+
+.slide-left{
+    float: left;
+    position:absolute;
+    padding: 50px;
+    padding-bottom: 50px;
+    height: 350px;
+    width: 400px;
+    margin-top: 250px;
+    margin-left: 250px;
+    text-align: center;
+    align-items: center;
+    background: rgba(225,225,225,.1);
+   border-radius: 25px;
+   box-shadow: 0 5px 15px rgba(0.0.03);
+   border-top:rgba(225,225,225,.3);
+   border-bottom:rgba(225,225,225,.1);
+   backdrop-filter: blur(10px);
+   transform: preserve-3d;
+    z-index: 99;
+
+}
+
+.slide-left h3{
+    font-size: 20px;
+    color: white;
+}
+
+.slide-left p{
+    color: black;
+}
+
+button{
+    font-size: 20px;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    border-radius: 25px;
+    width: 150px;
+    height: 35px;
+    background-color: #FBC30A;
+
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.slide-right{
+    float: right;
+    position:relative;
+    margin-top: 100px;
+    margin-right: 250px;
+    align-items: center;
+    display: flex;
+}
+
+.nike{
+    border-radius: 30px;
+}
+
+.addidas{
+    border-radius: 30px;
+}
+
+.nike-trainer{
+    border-radius: 30px;
+}
